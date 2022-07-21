@@ -5,6 +5,7 @@ const int MAX_N = 1e5+9;
 int id[MAX_N], nodes, edges;
 pair <long long, pair<int, int> > p[MAX_N];
 vector <pair <int, int>> path;
+
 void initialize()	{
 	for (int i = 0; i < MAX_N; i++)	
 		id[i] = i;
